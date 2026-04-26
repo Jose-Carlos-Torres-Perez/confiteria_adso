@@ -1,0 +1,94 @@
+#index{
+    margin: 0;
+    padding: 0;
+    width: 1280px;
+    height: 4150px;
+
+    width: 100vw;
+    place-items: center;
+    
+    background-color: antiquewhite;
+}
+
+#encabezado{
+    width: 1280px;
+    height: 88px;
+    background-color: rgb(254, 254, 254);
+    margin: 46px;
+
+}
+#productos{
+    width: 1173px;
+    height: 1390px;
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 46px;
+    justify-content: center;
+    
+    
+
+}
+.producto{
+    
+    width: 360px;
+    height: 433px;
+    background-color: white;
+}
+#destacados{
+    margin: 46px;
+    width: 1173px;
+    height: 880px;
+    
+    width: 100vw;
+    place-items: center;
+    
+    
+    
+}
+#video{
+    width: 1173px;
+    height: 627px;
+    background-color: white;
+
+}
+#botones{
+    margin: 46px;
+    width: 700px;
+    height: 207px;
+    
+    display: flex;
+  justify-content: space-between;
+
+}
+.bnt_p{
+    border: none;
+    width: 180px;
+    height: 207px;
+    background-color: rgb(219, 228, 219);
+    border-radius: 15px;
+
+}
+#banners{
+    width: 1173px;
+    height: 1349px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    
+
+}
+.banner{
+    gap: 37px;
+    width: 1177px;
+    height: 425px;
+    background-color: white;
+}
+#pie_pagina{
+    width: 1280px;
+    height: 254px;
+    background-color: rgb(254, 254, 254);
+    margin: 46px;
+
+}
