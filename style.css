@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 #index{
     margin: 0;
     padding: 0;
@@ -7,17 +11,69 @@
     width: 100vw;
     place-items: center;
     
-    background-color: antiquewhite;
+    background-color: white;
 }
 
 #encabezado{
+    display: flex;
     width: 1280px;
     height: 88px;
-    background-color: rgb(254, 254, 254);
-    margin: 46px;
+    background-color: rgb(252, 247, 247);
+    
 
 }
+#logo{
+    width: 286px;
+    height: 88px;
+    background-image: url("header/Captura\ logo.png");
+    background-size: cover;
+    background-position: center center;
+}
+#secciones{
+    display: flex;
+    width: 794px;
+    height: 88px;
+    
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.seccion{
+    font-size: 20px;
+    color: rgb(27, 26, 26);
+    font-family: inherit;
+}
+#iconos{
+    display: flex;
+    width: 200px;
+    height: 88px;
+   
+     justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.icono{
+    width: 48px;
+    height: 48px;
+    
+}
+#carrito{
+    background-image: url("header/carrito-3.png");
+    background-size: cover;
+    
+}
+#usuario{
+    background-image: url("header/usuarios-2.png");
+    background-size: cover;
+}
+#salir{
+    background-image: url("header/cerrar_sesion-1.png");
+    background-size: cover;
+}
 #productos{
+    margin: 46px;
     width: 1173px;
     height: 1390px;
     
@@ -34,6 +90,10 @@
     width: 360px;
     height: 433px;
     background-color: white;
+    border-radius: 10px; 
+    
+    
+    box-shadow: 0 7px 13px rgba(0, 0, 0, 0.1);
 }
 #destacados{
     margin: 46px;
@@ -49,7 +109,9 @@
 #video{
     width: 1173px;
     height: 627px;
-    background-color: white;
+    
+    background-image: url("videos_productos/69ce431bfe5af495bd2b6b3f65af526d\ \(1\).gif");
+    background-size: cover;
 
 }
 #botones{
@@ -63,12 +125,26 @@
 }
 .bnt_p{
     border: none;
-    width: 180px;
-    height: 207px;
+    width: 190px;
+    height: 193px;
     background-color: rgb(219, 228, 219);
     border-radius: 15px;
 
 }
+
+#paleta{
+     background-image: url("iconos_principales/icono_paleta.png");
+     background-size: cover;
+}
+#gomita{
+    background-image: url("iconos_principales/icono-gomita.png");
+    background-size: cover;
+}
+#bonbonbum{
+    background-image: url("iconos_principales/icono-bonbonbum.png");
+    background-size: cover;
+}
+
 #banners{
     width: 1173px;
     height: 1349px;
@@ -85,10 +161,22 @@
     height: 425px;
     background-color: white;
 }
+#mis-pedidos{
+    background-image: url("banne-secciones/banner-mispedidos.jpeg");
+    background-size: cover;
+}
+#quienes-somos{
+    background-image: url("banne-secciones/baner-quienessomos.jpeg");
+    background-size: cover;
+}
+#preferencial{
+    background-image: url("banne-secciones/banner-preferencial.jpeg");
+    background-size: cover;
+}
 #pie_pagina{
     width: 1280px;
     height: 254px;
-    background-color: rgb(254, 254, 254);
+    background-color: rgb(63, 61, 61);
     margin: 46px;
 
 }
