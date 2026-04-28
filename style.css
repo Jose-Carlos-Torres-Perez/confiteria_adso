@@ -22,6 +22,23 @@ body{
     
 
 }
+#general{
+width: 1280px;   
+height: 50px;
+display: flex;
+}
+.general{
+    width: 640px;
+    height: 50px;
+    background-color: rgb(252, 247, 247);
+    
+    border:1px solid rgb(253, 177, 13);
+}
+#slider{
+width: 1280px;   
+height: 605px;background-color: beige;
+
+}
 #logo{
     width: 286px;
     height: 88px;
@@ -104,9 +121,57 @@ body{
     height: 433px;
     background-color: white;
     border-radius: 10px; 
-    
-    
     box-shadow: 0 7px 13px rgba(0, 0, 0, 0.1);
+    
+    display: grid;
+   place-content: center;
+   row-gap: 4px;
+   
+    
+}
+.vista{
+width: 276px;
+height: 263px;
+background-color: aquamarine;
+}
+.n_producto{
+
+width: 276px;
+height: 38px; 
+font-size: 17px;  
+}
+.precio{
+  width: 276px;
+height: 21px; 
+text-align: end; 
+font-size: 20px;
+}
+.descripcion_boton{
+width: 276px;
+height: 42px;  
+
+display: flex;
+}
+.descripcion{
+width: 138px;
+height: 42px; 
+font-size: 13px; 
+}
+.agregar{
+width: 138px;
+height: 42px; 
+display: flex;
+justify-content: end;
+}
+#agregar{
+    
+    width: 121px;
+    height: 42.7px;
+    background-color: rgb(241, 35, 35);
+    border-radius: 15px;
+    border: none;
+    color: rgb(253, 177, 13);
+    font-size: 20px;
 }
 #destacados{
     margin: 46px;
