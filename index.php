@@ -1,5 +1,3 @@
-
-    
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,12 +22,18 @@
    <?php require_once __DIR__ . "/../confiteria_adso/vistas/productos.php" ?>
     <section id="banners">
 
-<div class="banner" id="mis-pedidos"></div>
-<div class="banner" id="quienes-somos"></div>
-<div class="banner" id="preferencial"></div>
+<div class="banner" id="mis-pedidos">
+    <button class="ver_mas">Ver más</button>
+</div>
+<div class="banner" id="quienes-somos">
+    <button class="ver_mas" id="ver_mas">Ver más</button>
+</div>
+<div class="banner" id="preferencial">
+    <button class="ver_mas">Ver más</button>
+</div>
     </section>
     <footer id="pie_pagina">
-
+    <?php require_once __DIR__ . "/../confiteria_adso/vistas/footer.php" ?>
     </footer>
     
     

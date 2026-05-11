@@ -238,10 +238,26 @@ justify-content: end;
     width: 1177px;
     height: 425px;
     background-color: white;
+    text-align: end;
+    align-content: end;
+}
+.ver_mas{
+    width: 210px;
+    height: 62px;
+    background-color: rgb(39, 123, 14);
+    color: rgb(255,255, 255);
+    border-radius: 15px;
+    border: none;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ver_mas{
+    background-color: rgb(241, 35, 35);
 }
 #mis-pedidos{
     background-image: url("banne-secciones/banner-mispedidos.jpeg");
     background-size: cover;
+    
 }
 #quienes-somos{
     background-image: url("banne-secciones/baner-quienessomos.jpeg");
@@ -257,3 +273,60 @@ justify-content: end;
     background-color: rgb(63, 61, 61);
     margin: 46px;
 }
+#linea1{
+    border: 5px solid rgb(237, 110, 43);
+}
+#cuerpo_footer{
+    display: flex;
+    width: 1280px;
+    height: 124.5px;
+    
+    
+}
+.contenido_footer{
+    justify-content: center;
+    text-align: center;
+    margin: 1px;
+    width:426.6px ;
+    height: 124.5px;
+    
+   
+}
+.texto-footer{
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+#tarjetas{
+    width: 100vw;
+    
+}
+#linea2{
+    border: 1px solid white;
+}
+#redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    
+    margin: 1px;
+}
+#redes-sociales{
+    
+    height: 96px;
+    width:426.6px ;
+
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;   
+    
+}
+#telefonos{
+    height: 96px;
+    margin: 5px;
+    align-content: space-evenly;
+}
+
