@@ -36,8 +36,24 @@ display: flex;
 }
 #slider{
 width: 1280px;   
-height: 605px;background-color: beige;
+height: 605px;
+background-image: url("/banner-slider/Rectangle\ 6.png");
+align-content: end;
+border-bottom: 13px solid rgb(95, 96, 97);
 
+}
+#categorias{
+    width: 1280px;
+    height: 63px;
+    display: flex;
+    gap: 10px;
+    background-image: url("/Sin\ título-1.png");
+}
+.categoria{
+    width: 325px;
+    height: 63px;
+    background-color: rgb(44, 45, 45);
+    border: none;
 }
 #logo{
     width: 286px;

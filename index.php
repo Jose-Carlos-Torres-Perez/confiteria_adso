@@ -18,7 +18,14 @@
         <button class="general">Regalos</button>
     </section>
     
-    <section id="slider"></section>
+    <section id="slider">
+    <div id="categorias">
+        <div class="categoria"></div>
+        <button class="categoria"></button>
+        <button class="categoria"></button>
+        <button class="categoria"></button>
+    </div>
+    </section>
    <?php require_once __DIR__ . "/../confiteria_adso/vistas/productos.php" ?>
     <section id="banners">
 
